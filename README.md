@@ -1,4 +1,5 @@
 # Node.js-architecture
+<img src="./Node.js_architecture.png" alt="Node.js Architecture" width="800">
 ### Working of Node.js
 
 JavaScript code can be executed in the browser because browsers have JavaScript engines. To run JavaScript code outside the browser, a runtime environment is needed, such as **Node.js**.
@@ -12,6 +13,8 @@ Node.js can handle many requests at the same time because it uses:
 - Event Loop
 - Thread Pool
 - Libuv
+
+<img src="./Node.js_flowchart.png" alt="Node.js Architecture" width="800">
 
 ### 1. Application
 

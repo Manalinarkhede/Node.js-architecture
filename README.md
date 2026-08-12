@@ -1,5 +1,6 @@
-# Node.js-architecture
-<img src="./Node.js_architecture.png" alt="Node.js Architecture" width="800">
+## Architecture of Node.js
+<img src="./Node.js_architecture.png" alt="Node.js Architecture" width="550">
+
 ### Working of Node.js
 
 JavaScript code can be executed in the browser because browsers have JavaScript engines. To run JavaScript code outside the browser, a runtime environment is needed, such as **Node.js**.
@@ -14,7 +15,7 @@ Node.js can handle many requests at the same time because it uses:
 - Thread Pool
 - Libuv
 
-<img src="./Node.js_flowchart.png" alt="Node.js Architecture" width="800">
+<img src="./Node.js_flowchart.png" alt="Node.js Architecture" height width="500">
 
 ### 1. Application
 
@@ -61,7 +62,7 @@ Non-blocking I/O means Node.js does not wait for an I/O operation to finish befo
 A blocking operation is an operation that prevents the main JavaScript thread from continuing until the operation finishes. If it is executed on the main thread, it can temporarily stop other JavaScript work. Blocking operations can be handled using the libuv thread pool so that the main thread remains available.
 
 
-### 9 . Thread Pool
+### 9. Thread Pool
 
 The libuv thread pool is used to handle blocking operations.
 It can handle tasks such as:
